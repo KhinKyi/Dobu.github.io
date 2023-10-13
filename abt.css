@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:600,700');
+
+/* nav logo*/
+.navbar-brand{
+  font-size: 40px;
+}
+
+.text-info{
+  color: rgb(204, 0, 0);
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+	flex: 1 0 auto;
+}
+
+
+
+/*about us*/
+
+.snip1374 {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-right: 0;
+    
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    
+}
+
+.snip1374 img {
+    max-width: 100%;
+    vertical-align: left;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+   
+}
+
+.snip1374:hover img,
+.snip1374.hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.info-text{
+  top: 50%;
+}
+.info-text p {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 26px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    padding: 16% 4%;
+    vertical-align: middle;
+}
+.info-text .right {
+  float: right;
+}
+
+
+/*Instructors*/
+.cards{
+    background-color: #bdcadd;
+}
+
+.container {
+    max-width: 890px;
+    margin: auto;
+    padding: 60px 40px;
+  }
+  .user-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .user-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .user-item-card {
+    display: flex;
+  }
+  .user-item-media {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ea748a;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .user-item-media img {
+    width: 84px;
+    height: 84px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  .media-name p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .content {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }
+  .content label {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ea748a;
+    display: block;
+    text-align: center;
+  }
+  
+  .content-title {
+    color: #76879d;
+  }
+  
+  @media screen and (max-width: 390px) {
+    .user-item-card {
+      flex-direction: column;
+      border-radius: 10px;
+    }
+    .user-item-media {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+
+  @media screen and (max-width: 766px) {
+    .user-item-card {
+      flex-direction: column;
+      border-radius: 10px;
+    }
+    .user-item-media {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+
+  
+
+/*skill bars js*/
+#skills {
+    background: #1C3553;
+    padding: 20px 15px 75px 15px;
+    color: #fff;
+  }
+  
+  .skills-text {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1c3553;
+    font-size: 20px;
+  }
+  
+  .skills-title {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-title.underline:before {
+    width: 40px;
+  }
+  
+  .skills-list {
+    overflow: hidden;
+    position: relative;
+    z-index: 10
+  }
+  
+  .skill-name:after {
+    background-color: #999797;
+    content: '';
+    display: block;
+    height:1rem;
+    position: relative;
+    top: 3px;
+    /*top: 1rem;*/
+    width: 100%;
+  }
+  
+  .skill-percent {
+    font-size: 0;
+    height: 1rem;
+    position: relative;
+    top: -.8rem;
+    transition: 3s linear;
+    width: 0;
+  }
+  
+  /* SKILL BAR COLORS */
+  
+  .skill-percent-html {
+    background-color: #FF5C00;
+  }
+  .skill-percent-css {
+    background-color: #00B1DB;
+  }
+  .skill-percent-jquery {
+    background-color: #FFC100;
+  }
+  .skill-percent-scss {
+    background-color: #FF768E;
+  }
+  .skill-percent-javascript {
+    background-color: #FF8B00;
+  }
+  .skill-percent-wordpress {
+    background-color: #0073b0;
+  }
+  .skill-percent-php {
+    background-color: #464c99;
+  }
+  .skill-percent-git {
+    background-color: #ff5c00;
+  }
+  
+  /* Heading Underline */
+  
+  .underline {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .underline:before {
+    background-color: #fff;
+    bottom: -15px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 110%;
+  }
+
+
+
+
+
+/*footer*/
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 10px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:rgb(231, 66, 29);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+

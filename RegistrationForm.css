@@ -1,0 +1,129 @@
+/* logo*/
+.navbar-brand{
+  font-size: 40px;
+}
+
+.text-info{
+  color: rgb(204, 0, 0);
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+label {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 30px;
+    display: block;
+    margin-left: 20px;
+    
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+  }
+
+
+  /* Username */
+
+input[type="text"] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+
+input[type="text"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* email input element by ID */
+#email {
+
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: -20px;
+   
+  }
+  
+  #email::placeholder {
+
+    color: #999;
+    font-size: 16px;
+  }
+  
+  #email:focus {
+
+    border-color: #0077cc;
+    outline: none;
+  }
+
+
+/* password input*/
+
+input[type="password"] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+
+input[type="password"]::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+input[type="password"]:focus {
+  border-color: #666;
+  box-shadow: 0 0 5px #666;
+}
+
+
+
+  /* Style the select element */
+select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  
